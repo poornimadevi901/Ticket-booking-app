@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:src="@drawable/logo" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="6">
+
+        <Button
+            android:layout_width="77dp"
+            android:padding="8dp"
+            android:text="Movies" />
+
+        <Button
+            android:layout_width="73dp"
+            android:padding="8dp"
+            android:text="Streams" />
+
+        <Button
+            android:padding="8dp"
+            android:text="Events" />
+
+        <Button
+            android:padding="8dp"
+            android:text="Sports" />
+
+        <Button
+            android:layout_row="0"
+            android:layout_column="4"
+            android:padding="8dp"
+            android:text="Music" />
+    </GridLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your location "
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latest Movies"
+        android:textSize="25sp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="2">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/vettaiyan" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/devara" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/swag" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/ka" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/pottel" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/luckybhaskar" />
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Re-Release Movies"
+        android:textSize="25sp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="1">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/samara" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/eeswar" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/mrperfect" />
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Up-Coming Movies"
+        android:textSize="25sp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="1">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/ustaad" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/amaran" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/kangua" />
+    </GridLayout>
+</LinearLayout>
